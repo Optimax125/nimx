@@ -13,7 +13,7 @@ installDirs = @["nimx", "assets"]
 requires "sdl2"
 requires "opengl#head"
 requires "nimsl >= 0.3"
-requires "jnim" # For android target
+requires "https://github.com/Optimax125/jnim.git" # For android target
 requires "nake"
 requires "closure_compiler >= 0.3.1"
 requires "plists"
